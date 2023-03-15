@@ -5,10 +5,7 @@ import {
   CLEAR_COMPLETED_TODOS,
 } from "../actions/ations";
 import { TodoAction, todoState } from "../../interfaces";
-
-const initialState: todoState = {
-  todos: [],
-};
+import { initialState } from "../state";
 
 export function todoReducer(
   state: todoState = initialState,
